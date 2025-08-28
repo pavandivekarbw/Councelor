@@ -1,0 +1,86 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-modal {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+    border-bottom: 2px solid #3b82f6;
+    color: #ffffff;
+}
+
+.tab-content {
+    margin-bottom: 20px;
+    min-height: 375px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #9ca3af;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #374151;
+    color: #ffffff;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.change-password-button {
+    background-color: #6b7280;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: not-allowed;
+}
+
+.save-changes-button {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

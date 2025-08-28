@@ -1,0 +1,20 @@
+.dropdown-class {
+    max-height: 250px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+
+    /* For Webkit-based browsers (Chrome, Edge, Safari) */
+    &::-webkit-scrollbar {
+        width: 2px; /* Adjust the width as needed */
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #ccc; /* Customize scrollbar thumb color */
+        border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #f1f1f1; /* Customize scrollbar track color */
+    }
+}

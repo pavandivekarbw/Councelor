@@ -1,0 +1,46 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+  <title id="title">SerenAI Icon</title>
+  <desc id="desc">Minimal calm face profile with a leaf motif</desc>
+  <style>
+    :root { --sa-color: #0f766e; } /* teal */
+    .sa-stroke { stroke: var(--sa-color); }
+    .sa-fill   { fill: var(--sa-color); }
+  </style>
+
+  <!-- Outer circle -->
+  <circle cx="32" cy="32" r="27" class="sa-stroke" stroke-width="2.5"/>
+
+  <!-- Face profile (forehead->nose->chin) -->
+  <path d="M39 18
+           C34 18, 32 22, 32 26
+           C32 30, 30 33, 28 36
+           C27 38, 27 41, 29 43"
+        class="sa-stroke" stroke-linecap="round" stroke-width="2.5" fill="none"/>
+
+  <!-- Closed eye -->
+  <path d="M35 27 Q32.5 29.5 30 27"
+        class="sa-stroke" stroke-linecap="round" stroke-width="2.2" fill="none"/>
+
+  <!-- Leaf near jaw -->
+  <path d="M22 40
+           C24.5 36.5, 29 35, 33 36
+           C30 41, 26 43.5, 22 40Z"
+        fill="#a7f3d0" opacity="0.9"/>
+  <path d="M22 40
+           C24.5 36.5, 29 35, 33 36
+           C30 41, 26 43.5, 22 40Z"
+        class="sa-stroke" stroke-width="2" fill="none"/>
+  <path d="M23.5 39.5 C26.5 38, 28.5 37.5, 31 37.2"
+        class="sa-stroke" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <!-- Soft glow (optional; remove if you want flat) -->
+  <circle cx="32" cy="32" r="27" fill="url(#g)" opacity="0.08"/>
+  <defs>
+    <radialGradient id="g" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(27)">
+      <stop stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
